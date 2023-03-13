@@ -1,6 +1,6 @@
 using stack;
 
-Console.WriteLine("Who do you prefer? Cats or Dogs?");
+Console.WriteLine("Собака или кошка?");
 string answer = Console.ReadLine().ToLower();
 switch (answer)
 {
