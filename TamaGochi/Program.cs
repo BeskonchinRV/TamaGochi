@@ -1,12 +1,9 @@
-﻿using System;
+using stack;
 
-namespace TamaGochi
+Console.WriteLine("Who do you prefer? Cats or Dogs?");
+string answer = Console.ReadLine().ToLower();
+switch (answer)
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
-    }
+    case "cats": Game.gameCat(); break;
+    case "dogs": Game.gameDog(); break;
 }
