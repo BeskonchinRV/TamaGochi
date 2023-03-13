@@ -1,10 +1,13 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
-using System.Text;
+using System.Linq;
+using System.Threading.Tasks;
 
-namespace TamaGochi
+namespace stack
 {
-    class Food
+    public struct Food
     {
+        public int health;
+        public string type;
     }
 }
